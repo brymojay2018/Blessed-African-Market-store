@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!-- Font_Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://fonts.cdnfonts.com/css/sofia-sans" rel="stylesheet" />
+
+    <link href="https://fonts.cdnfonts.com/css/br-segma" rel="stylesheet" />
+
+    <!-- Font CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="address-banner">
+        <div class="address">
+          <div class="contactInfo">
+            <i class="fa-solid fa-map-pin"></i>
+            <p>9220 B South Texas 6 HWY/Bissonnet Huston, TX 77083</p>
+          </div>
+          <div class="contactInfo">
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>+1 832 998 9237</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero_section -->
+    <main>
+      <section class="hero-section">
+        <div class="hero-div">
+          <div class="content-div">
+            <h1>The Taste of Africa, Here in Houston</h1>
+            <p>
+              From fresh produce and pantry staples to catering services and
+              traditional meals, we make it easy to enjoy African flavors with
+              quality products you can trust.
+            </p>
+          </div>
+          <div class="button-div">
+            <button class="cta">
+              Get Direction
+            </button>
+            <button class="secBtn" id="sectbtn">Contact Us</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our_service -->
+      <section class="our-service-section">
+        <div class="service-div">
+          <!-- Service 1 -->
+          <div class="service-card" style="background-color: #d64435">
+            <div class="service-content">
+              <h3>We Sell Groceries</h3>
+              <p>
+                Shop everyday Africa pantry staples including rice, Gerri,
+                flour, spices, beverages, noodles, and cooking ingredients
+                trusted by families.
+              </p>
+            </div>
+            <div class="service-image">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/groceryPicture_lv2i8x.png" alt="" />
+            </div>
+          </div>
+          <!-- Service 2 -->
+          <div class="service-card" style="background-color: #fcf4cf">
+            <div class="service-content freshMeat">
+              <h3>Also Frozen Foods</h3>
+              <p>
+                Freshly stocked chicken, goat meat, turkey, fish, and seafood
+                prepared carefully to give you quality and freshness for every
+                meal.
+              </p>
+            </div>
+            <div class="service-image">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/freshmeat_gfoj7a.png" alt="" />
+            </div>
+          </div>
+          <!-- Service 3 -->
+          <div class="service-card cateringService">
+            <div class="service-content overlayContent">
+              <h3>We Offer Catering Service</h3>
+              <p>
+                We provide delicious African catering services for birthdays,
+                parties, weddings, family gatherings, and special occasions.
+              </p>
+            </div>
+          </div>
+          <!-- Service 4 -->
+          <div class="service-card" style="background-color: #ffc700">
+            <div class="service-content freshMeat">
+              <h3>Available Ingriendient For Every Soup</h3>
+              <p>
+                Discover authentic African food brands, spices, grains, canned
+                foods, and traditional ingredients imported for rich and
+                satisfying meals.
+              </p>
+              <button class="cta">Message Us</button>
+            </div>
+            <div class="service-image">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/pankes_cpjdeo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grocery_list_card -->
+      <section class="grocery">
+        <div class="groceryDiv">
+          <div class="listheader">
+            <h2>What we sell category</h2>
+            <div class="category">
+              <div class="listCart active">
+                <p>Farm Produce</p>
+              </div>
+              <div class="listCart">
+                <p>Grains</p>
+              </div>
+              <div class="listCart">
+                <p>Oils</p>
+              </div>
+              <div class="listCart">
+                <p>Seasonings</p>
+              </div>
+
+              <div class="listCart">
+                <p>Canned</p>
+              </div>
+
+              <div class="listCart">
+                <p>Beverages</p>
+              </div>
+
+              <div class="listCart">
+                <p>Snacks</p>
+              </div>
+
+              <div class="listCart">
+                <p>Seafood</p>
+              </div>
+            </div>
+          </div>
+          <!-- Grocery_tab_list -->
+          <div class="listtab showtab" id="farm">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/yam_eyjnam.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/potator_zwd14l.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/okro_14.47.25_mvzkgd.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/banana_txzb9k.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/pepper_dym1w5.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/cameron_black_peper_fgfawy.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="flour">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/rice_cmphvu.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/plaintainfufu_nsmo6r.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="imagefolder/rice3.jpeg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/cocoyamfufu_ylgwwh.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/maltarice_q8fwdy.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/rice3_wzzbhj.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/grocery_bwquin.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/groundflour_h9a9ng.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="oils">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039329/gradeaoil_gzrlvi.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/oil_ii9sg3.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039226/oilgroundnut_somijl.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/groundnutoil_qwhse0.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039225/oil2_tcwc6t.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039297/corotinaoil_nijtxe.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039324/oil_ii9sg3.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039330/WhatsApp_Image_2026-06-20_at_09.40.17_3_oo0w1j.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="spices">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039329/gingerhoneycrystal_m9tprt.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039321/maggistar_o3ssew.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039320/maggi_kbkols.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039287/chickenmaggi_tbppun.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039287/bangafruitjuice_hazfdv.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039225/ingredient_m6bl4g.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039217/dryleaves_jxitib.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039231/spicey_da6gkd.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="Canned">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039328/geishatitus_pipzxq.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039345/geisha_uvyamq.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039325/palmnutcream_zfdl7t.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="imagefolder/tomatoePaste.jpeg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/geish4_d468ml.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039287/bangafruitjuice_hazfdv.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/cornedbeaf_dnyo5w.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="Cereals">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039322/milomilk_pgvrti.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039323/nidonestle_qoakum.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039324/ovaltinemilk_fsp8ra.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="imagefolder/rice.jpeg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039327/vitamalt_pekkjf.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039335/goldenmore_grrz3k.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="imagefolder/newgrocery/custard.jpeg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039319/LadyBcustardpowder_vms14i.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039326/pickmilk_em7kdo.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039319/horlicks_fkbfao.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039299/custardpowder_dpzyha.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039327/granulatedmilk_lihpby.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="Snacks">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/chinchin_somu1h.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/peanut_anpyfj.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/peanutgrocery_b7wky8.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/grocery2_kc90zu.jpg" alt="" />
+            </div>
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/grocery_bwquin.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/nut_buqj7h.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/grocery4_bewapt.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="listtab" id="seafood">
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/stockFish_bulkqj.jpg" alt="" />
+            </div>
+
+            <div class="mobileItem">
+              <img src="https://res.cloudinary.com/djsuw0dun/image/upload/stockfish2_ljgkzz.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust_us_section -->
+      <section class="trust-us-contain">
+        <div class="why-us-div">
+          <h2>Why Blessed African Store?</h2>
+          <div class="why-us-content">
+            <div class="why-list">
+              <div class="div">
+                <img src="imagefolder/Component 91-1.png" alt="" width="32px" />
+              </div>
+              <div class="content-list">
+                <h3>We stock weekly</h3>
+                <p>
+                  We restock fresh African groceries every week to ensure
+                  quality and availability for our customers.
+                </p>
+              </div>
+            </div>
+            <div class="why-list">
+              <div class="div">
+                <img src="imagefolder/Component 91-1.png" alt="" width="32px" />
+              </div>
+              <div class="content-list">
+                <h3>Very Affordable Price</h3>
+                <p>
+                  Enjoy quality African products at fair and affordable prices
+                  suitable for individuals and families.
+                </p>
+              </div>
+            </div>
+            <div class="why-list">
+              <div class="div">
+                <img src="imagefolder/Component 91-2.png" alt="" width="32px" />
+              </div>
+              <div class="content-list">
+                <h3>Home Taste Feelings</h3>
+                <p>
+                  Serving Africans and international food lovers across the
+                  Huston Texas with trusted products and excellent service.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grocery_shopping -->
+      <section class="groceryShopping">
+        <div class="product-list">
+          <div class="productContent">
+            <h2>More of Farm Product</h2>
+            <p>Check our popular product from Tomatoes, Onions and more</p>
+            <button class="cta">Visit Store</button>
+          </div>
+
+          <div class="productShopList">
+            <div class="moving-card-arrow">
+              <div class="arrow-service" id="leftarrow">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+
+              <div class="arrow-service" id="rightarrow">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="itemList" id="itemList">
+              <div class="grocery-item">
+                <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039233/yam_eyjnam.jpg" alt="" />
+                <p>Yam</p>
+              </div>
+
+              <div class="grocery-item">
+                <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039225/oil3_obktng.jpg" alt="" />
+                <p>Palm Oil</p>
+              </div>
+
+              <div class="grocery-item">
+                <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039216/banana_txzb9k.jpg" alt="" />
+                <p>Banana</p>
+              </div>
+
+
+              <div class="grocery-item">
+                <img src="https://res.cloudinary.com/djsuw0dun/image/upload/v1782039230/rice_cmphvu.jpg" alt="" />
+                <p>Rice</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Catering_soup -->
+      <section class="cateringSoup">
+        <div class="header-content">
+          <h2>Our Catering Soup</h2>
+          <p>
+            Taste rich African flavors prepared with authentic recipes and
+            quality ingredients.
+          </p>
+        </div>
+
+        <div class="soup-div">
+          <div class="itemList" id="soupList">
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://shopafricausa.com/cdn/shop/articles/ogbono_788x.jpg?v=1566349969);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Ogbono</h3>
+              </div>
+            </div>
+
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://i0.wp.com/www.yummymedley.com/wp-content/uploads/2017/09/afang-soup-pot-ready.jpg?resize=750%2C1125&ssl=1);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Vegetable Soup</h3>
+              </div>
+            </div>
+
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://joyfulcook.com/wp-content/uploads/2024/12/WhatsApp-Image-2025-01-08-at-08.19.23_707dbada-e1736323921927.jpg);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Egusi</h3>
+              </div>
+            </div>
+
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://www.mydiasporakitchen.com/wp-content/uploads/2017/07/IMG_9185.jpg);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Edi Kaiko</h3>
+              </div>
+            </div>
+
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://terracubes.net/wp-content/uploads/2023/08/bitter-leaf-soup.jpeg);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Bitter leaf</h3>
+              </div>
+            </div>
+
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://worldlytreat.com/wp-content/uploads/2023/03/Nkwobi-spicy-cow-leg.jpg);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Nkwobi Isiewu</h3>
+              </div>
+            </div>
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://mydiasporakitchen.com/wp-content/uploads/2017/08/img_9640-1.jpg);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Oha soup</h3>
+              </div>
+            </div>
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjtTL5W4vuKQESpYpiY3aE9JU4sCXmRPpIQ&s);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Porridge Yam</h3>
+              </div>
+            </div>
+            <div
+              class="service-card soupContent"
+              style="
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0a/Jollof_Rice_with_Stew.jpg);
+              "
+            >
+              <div class="service-content overlayContent">
+                <h3>Jollof rice</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="moving-card-arrow">
+            <div class="arrow-service" id="soupleft">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+
+            <div class="arrow-service" id="soupright">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About_Mart -->
+      <section class="aboutUs">
+        <div class="aboutUs">
+          <div class="aboutUsheader">
+            <h2>Why We Open Blessed Store at Huston Texaz</h2>
+
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d390046.0011888388!2d-95.62992310106132!3d29.658272787357763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s9220%20B%20Huston%20Texas%206%20HWY%2FBissonnet%20Huston%2C%20TX%2077083!5e0!3m2!1sen!2sng!4v1781960189240!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="aboutUs-content">
+            <p>
+              At Blessed Africa Food Market, we are passionate about connecting
+              families and food lovers with authentic
+              <span>African Groceries traditional ingredients</span>, and
+              <span>delicious meals</span>. From <span>fresh produce</span> and
+              <span>frozen foods to spices</span>,
+              <span>pantry essentials</span>, and
+              <span>catering services</span>, every product is carefully
+              selected to deliver freshness, quality, and the true taste of
+              Africa.
+            </p>
+            <p>
+              We are passionate about connecting families and food lovers with
+              authentic African groceries, traditional ingredients, and
+              delicious meals.
+            </p>
+
+            <div class="info">
+              <p>Visit Our Store</p>
+              <h4>9220 B Huston Texas 6 HWY/Bissonnet Huston, TX 77083</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to action -->
+      <section class="callToAction">
+        <div
+          class="service-card serviceCallaction"
+          style="background-color: #fcf4cf"
+        >
+          <div class="service-content freshMeat">
+            <h3>Home Made Vegetables Available</h3>
+            <p>
+              From leafy greens to fresh peppers and roots, enjoy quality
+              vegetables for every African dish.
+            </p>
+            <button class="cta">Get Direction</button>
+          </div>
+          <div class="service-image">
+            <img
+              src="https://hips.hearstapps.com/hmg-prod/images/09dce7b7-ea40-406b-a2c0-a3f57c420b17-1657946362.jpeg?crop=0.660xw:1.00xh;0.0794xw,0&resize=640:*"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ's -->
+      <section class="FAQ">
+        <div class="faq-div">
+          <h2>Questions To Know</h2>
+          <div class="question-list">
+            <div class="question-content">
+              <div class="question-header-title">
+                <h4>Do you deliver across Huston?</h4>
+                <p>
+                  Yes, we offer delivery services to selected areas across
+                  Houston, Texas. Delivery availability may vary depending on
+                  your location. Contact us to confirm whether we deliver to
+                  your area.
+                </p>
+              </div>
+            </div>
+            <div class="question-content">
+              <div class="question-header-title">
+                <h4>What Africa Foods do you stock?</h4>
+                <p>
+                  We stock a wide variety of African groceries, including rice,
+                  yam flour, garri, spices, palm oil, beverages, snacks, frozen
+                  foods, and other household essentials from different African
+                  countries.
+                </p>
+              </div>
+            </div>
+            <div class="question-content">
+              <div class="question-header-title">
+                <h4>How do I request for your catering service?</h4>
+                <p>
+                  Requesting our catering service is easy. Simply contact us by
+                  clicking on contact us button. We respond immediately
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Store_market_pictures -->
+      <section class="store-market">
+        <div class="scrolling-market-picture">
+          <div class="scroll1">
+            <img src="https://res.cloudinary.com/djsuw0dun/image/upload/hero_image_dwdx70.jpg" alt="" />
+            <div class="social-media">
+              <h2>Follow Us</h2>
+              <div class="media-content">
+                <div class="mediaInfo">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <a href="#">Twitter</a>
+                </div>
+                <div class="mediaInfo">
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="#">Instagram</a>
+                </div>
+                <div class="mediaInfo">
+                  <i class="fa-brands fa-tiktok"></i>
+                  <a href="#">Tiktok</a>
+                </div>
+              </div>
+            </div>
+            <img src="https://res.cloudinary.com/djsuw0dun/image/upload/hero-image_xpk3v4.jpg" alt="" />
+            <img src="https://res.cloudinary.com/djsuw0dun/image/upload/hero2_lo7wgx.jpg" alt="" />
+          </div>
+
+          <div class="scroll1">
+            <img src="https://res.cloudinary.com/djsuw0dun/image/upload/hero_image_dwdx70.jpg" alt="" />
+            <div class="social-media">
+              <h2>Follow Us</h2>
+              <div class="media-content">
+                <div class="mediaInfo">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <a href="#">Twitter</a>
+                </div>
+                <div class="mediaInfo">
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="#">Instagram</a>
+                </div>
+                <div class="mediaInfo">
+                  <i class="fa-brands fa-tiktok"></i>
+                  <a href="#">Tiktok</a>
+                </div>
+              </div>
+            </div>
+            <img src="https://res.cloudinary.com/djsuw0dun/image/upload/hero-image_xpk3v4.jpg" alt="" />
+            <img src="https://res.cloudinary.com/djsuw0dun/image/upload/hero2_lo7wgx.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footerDiv">
+        <div class="media-social">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+        <div class="address secondInfo">
+          <div class="contactInfo">
+            <i class="fa-solid fa-map-pin"></i>
+            <p>9220 B South Texas 6 HWY/Bissonnet Huston, TX 77083</p>
+          </div>
+          <div class="contactInfo">
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>+1 832 998 9237</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
