@@ -10,7 +10,7 @@ const soupRight = document.getElementById('soupright')
 const soupLeft = document.getElementById('soupleft')
 const arrowFlow = document.querySelectorAll(`.arrow-service`)
 const buttons = document.querySelectorAll(`.cta`)
-const ctaBtn = document.getElementById(`sectbtn`)
+const ctaBtn = document.querySelectorAll(`.whatSappBtn`)
 console.log(ctaBtn)
 const whatsappNumber = `+18329989237`
 
@@ -71,11 +71,13 @@ buttons.forEach((buttonClicked) => {
     })
 })
 
-ctaBtn.addEventListener(`click`, () => {
-    window.open(
-        `https://wa.me/${whatsappNumber}`,
-        "_blank"
-      );
+ctaBtn.forEach((button) => {
+    button.addEventListener(`click`, () => {
+        window.open(
+            `https://wa.me/${whatsappNumber}`,
+            "_blank"
+          );
+    })
 })
 
 
